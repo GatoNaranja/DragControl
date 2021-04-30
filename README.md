@@ -15,4 +15,4 @@
 ### 实现效果
 单击选中状态，边缘8个小点实现8个方向的拖拽，拖拽中间实现拖动。
 
-![DragControl效果](http://https://github.com/GatoNaranja/Images/blob/main/DragControl.PNG "DragControl效果")
+![DragControl效果](https://github.com/GatoNaranja/Images/blob/main/DragControl.PNG)
