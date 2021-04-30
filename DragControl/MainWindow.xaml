@@ -20,7 +20,7 @@
         <BooleanToVisibilityConverter x:Key="BTVC"/>
     </Window.Resources>
     <Grid Background="#FF3A3E42">
-        <Canvas x:Name="brc" Width="800" Height="450" Visibility="{Binding IsChecked, Converter={StaticResource BTVC}, ElementName=lgd, Mode=TwoWay}">
+        <Canvas x:Name="brc" Width="{Binding ElementName=win, Path=Width}" Height="{Binding ElementName=win, Path=Height}">
             <Grid Background="Transparent" Canvas.Top="298" Canvas.Left="502" local:DragControlHelper.IsEditable="True" local:DragControlHelper.IsSelectable="True">
                 <Viewbox IsHitTestVisible="False">
                     <local:Legend x:Name="br" Height="152" Width="298"/>
